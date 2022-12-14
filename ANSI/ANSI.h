@@ -1,5 +1,5 @@
-#ifndef UART_H_
-#define UART_H_
+#ifndef ANSI_H_
+#define ANSI_H_
 
 #include "ANSIMacros.h"
 #include <stdarg.h>
