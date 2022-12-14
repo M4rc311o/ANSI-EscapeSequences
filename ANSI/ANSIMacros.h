@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ANSIMACROS_H_
+#define ANSIMACROS_H_
 
 //STYLE
 #define DEFAULT_STYLE 0
@@ -36,3 +37,5 @@
 #define START_TO_CURSOR 1
 #define CURSOR_TO_END 0
 #define ALL 2
+
+#endif
