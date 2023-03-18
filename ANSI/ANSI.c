@@ -44,7 +44,7 @@ void setColor(unsigned int prefix, unsigned int color){
 		if (FBground == BRIGHT_FOREGROUND) FBground = FOREGROUND;
 		if (FBground == BRIGHT_BACKGROUND) FBground = BACKGROUND;
 	}
-	printf_s("\x1b[%u%um", FBground, color);
+	printf_s("\x1b[%u%um", prefix, color);
 }
 
 void setStyle(unsigned int count, ...) {
